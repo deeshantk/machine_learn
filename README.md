@@ -14,4 +14,4 @@ and the max is the largest number.
 
 
 # Selecting data for modeling
-Sometimes your data have too many variables to wrap up so, we need to look to each column of the data. This is done with column property which you can see in line number 6.
+Sometimes your data have too many variables to wrap up so, we need to look to each column of the data. This is done with column property which can be seen in line number 6.
