@@ -6,3 +6,7 @@ print(data.describe()) # Prints outs the summery of the data.
 print(data.columns). # This will print out the first column of the data.
 
 y = data.Price
+
+data_features = ['Rooms', 'Bathroom', 'Landsize', 'Lattitude', 'Longtitude'] 
+
+x = data[data_featuers] 
