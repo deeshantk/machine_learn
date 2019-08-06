@@ -26,3 +26,12 @@ All columns can be used here other than the one we have to predict the value of.
 We can select multiple featres by making a list of columns as done in line number 10.
 
 On line number 12, the variable x will store the data of only the features the we selected on line 10.
+
+# Building the model
+Scikit-learn is easily the most popular library for modeling the types of data typically stored in DataFrames.
+
+The steps to building and using a model are:
+1) Define: What type of model will it be? A decision tree? Some other type of model? Some other parameters of the model type are specified too.
+2) Fit: Capture patterns from provided data. This is the heart of modeling.
+3) Predict: It will predict the value against the data we have provided to it.
+4) Evaluate: Determine how accurate the model's predictions are.
