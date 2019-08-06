@@ -15,3 +15,7 @@ and the max is the largest number.
 
 # Selecting data for modeling
 Sometimes your data have too many variables to wrap up so, we need to look to each column of the data. This is done with column property which can be seen in line number 6.
+
+
+# Selecting the target which needs to be predicted later
+For this we can select the column with a dot (.) and store it in a variable which will be called prediction target. Generall, we take the variable as y which is done in line number 8. 
