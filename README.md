@@ -24,3 +24,5 @@ Now that we have choosen the target to be predicted, we now have to choose the f
 Here, we will choose the columns that will be used to make predictions.
 All columns can be used here other than the one we have to predict the value of.
 We can select multiple featres by making a list of columns as done in line number 10.
+
+On line number 12, the variable x will store the data of only the features the we selected on line 10.
