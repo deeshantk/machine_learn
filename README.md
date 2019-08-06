@@ -31,7 +31,7 @@ On line number 12, the variable x will store the data of only the features the w
 Scikit-learn is easily the most popular library for modeling the types of data typically stored in DataFrames.
 
 The steps to building and using a model are:
-1) Define: What type of model will it be? A decision tree? Some other type of model? Some other parameters of the model type are specified too.
+1) Define: Here we have to define the data like what type of model will it be? A decision tree? Some other type of model? Some other parameters of the model type are specified too.
 2) Fit: Capture patterns from provided data. This is the heart of modeling.
 3) Predict: It will predict the value against the data we have provided to it.
 4) Evaluate: Determine how accurate the model's predictions are.
