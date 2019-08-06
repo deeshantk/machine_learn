@@ -1,7 +1,10 @@
 # machine_learn
 
-The first number, the count, shows how many rows have non-missing values.
+The python library used on line 1 is pandas which is used to store data. You can learn more about it here - https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html 
 
+On line 5, discribe() is used which is a featre of pandas. The data shown by it is-
+
+The first number, the count, shows how many rows have non-missing values.
 Missing values arise for many reasons.
 The second value is the mean, which is the average. Under that, std is the standard deviation, which measures how numerically spread out the values are.
 
