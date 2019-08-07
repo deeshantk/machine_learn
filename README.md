@@ -35,3 +35,11 @@ The steps to building and using a model are:
 2) Fit: Capture patterns from provided data. This is the heart of modeling.
 3) Predict: It will predict the value against the data we have provided to it.
 4) Evaluate: Determine how accurate the model's predictions are.
+
+We will define a decision tree model with scikit-learn and fit it with features and target which is done in line 14.
+The libery for scikit-learn is on line 2. It is written as sklearn in program.
+
+# Decision Tree
+Decision tree builds regression or classification models in the form of a tree structure. It breaks down a dataset into smaller and smaller subsets while at the same time an associated decision tree is incrementally developed. The final result is a tree with decision nodes and leaf nodes. A decision node (e.g., Outlook) has two or more branches (e.g., Sunny, Overcast and Rainy), each representing values for the attribute tested. Leaf node (e.g., Hours Played) represents a decision on the numerical target. The topmost decision node in a tree which corresponds to the best predictor called root node. Decision trees can handle both categorical and numerical data. 
+
+Now we have fitted the model and can proceed to the prediction.
