@@ -10,3 +10,9 @@ y = data.Price
 data_features = ['Rooms', 'Bathroom', 'Landsize', 'Lattitude', 'Longtitude'] 
 
 x = data[data_featuers] 
+
+data_model = DecisionTreeRegressor(random_state = 1)
+data_model.fit(x,y)
+print('Lets make prediction for first 5 houses')
+print(X.head())
+print(data_model.predict(X.head()))
