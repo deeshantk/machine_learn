@@ -27,3 +27,10 @@ print(data_model.predict(X.head()))
 
 predicted_prices = data_model.predict(X) 
 print(mean_absolute_error(y, predicted_prices)) 
+
+# split data into training and validation data, for both features and target
+train_X, val_X, train_y, val_y = train_test_split(X, y, random_state = 0) # Define model
+data_model = DecisionTreeRegressor(random_state = 0) # Fit model
+data_model.fit(train_X, train_y)
+val_prediction = data_model.predict(val_X)
+print(mean_absolute_error(val_y, val_prediction))
