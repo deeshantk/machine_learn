@@ -10,3 +10,5 @@ The value we calculated is called in sample score but it is not good everytime. 
 
 ###### Solution for it
 The scikit-learn library has a function train_test_split to break up the data into two pieces. We'll use some of that data as training data to fit the model, and we'll use the other data as validation data to calculate mean_absolute_error.
+
+> Line 32 to 36
