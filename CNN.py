@@ -2,6 +2,7 @@ import os
 import random
 import cv2
 import pickle
+import matplotlib.pyplot as plt
 
 datadir = "path_here"
 #print(os.listdir(datadir))          #Just to show whats inside
@@ -20,6 +21,11 @@ def create_trainin_data():
             try:
                 img_array = cv2.imread(os.path.join(path, img), cv2.IMREAD_GRAYSCALE)
                 new_array = cv2.resize(img_array,(IMG_SIZE,IMG_SIZE))
+                '''
+                # If you want see how the image looks 
+                plt.imshow(new_array,cmap='grey')
+                plt.show()
+                '''
                 training_data.append([new_array,class_num])
             except Exception as e:
                 pass
