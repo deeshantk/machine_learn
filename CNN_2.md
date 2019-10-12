@@ -16,4 +16,4 @@ This can be done like -
   
   **Note- Only first layer of Sequential model needs to know the input shape**
   
-And last **Activation** which is optional.
+And last **Activation** which is optional. Though is Activation is not provided then it will use linear Activation function.
