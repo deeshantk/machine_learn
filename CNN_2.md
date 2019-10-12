@@ -7,7 +7,9 @@ This can be done like -
  or like this
  
 > model = Sequential()
+
   model.add(l1)
+  
   model.add(l2)
   
   Now first layer is going to be a **Dense** layer. The required item that Dense needed is number of neurons that layer is supposed to have.Then what input shape it should expect.
