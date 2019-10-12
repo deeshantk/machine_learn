@@ -11,5 +11,7 @@ This can be done like -
   model.add(l2)
   
   Now first layer is going to be a **Dense** layer. The required item that Dense needed is number of neurons that layer is supposed to have.Then what input shape it should expect.
+  
   **Note- Only first layer of Sequential model needs to know the input shape**
   
+And last **Activation** which is optional.
