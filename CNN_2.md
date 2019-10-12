@@ -7,8 +7,7 @@ This can be done like -
  or like this
  
 > model = Sequential()
-
-  model.add(l1)
+> model.add(l1)
   
   model.add(l2)
   
