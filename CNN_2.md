@@ -3,7 +3,9 @@
 keras Sequential model is a linear stack of layers. This will accepts an array and in that array, its going to have elements each of which will be an input layer. 
 This can be done like -
 > model = Sequential([l1,l2,l3]) where l1,l2,l3 are example of actual layers.
-or like this
+
+ or like this
+ 
 > model = Sequential()
   model.add(l1)
   model.add(l2)
