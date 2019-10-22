@@ -1,0 +1,17 @@
+import cv2
+import tensorflow as tf
+
+path = '/Users/deeshantkotnala/Desktop/data/cats/cat2.jpg'
+
+categories = ['Dog','Cat']
+
+def prediction(file):
+    img_size = 50
+    img = cv2.imread(file, 0)
+    print(img)
+    img = cv2.resize(img,(img_size,img_size))
+    return img.reshape(-1,50,50,1)
+
+model = tf.keras.models.load_model('CNN.model')
+predict_val = int(model.predict([prediction(path)]))
+print(categories[predict_val])
