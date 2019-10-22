@@ -1,7 +1,7 @@
 import cv2
 import tensorflow as tf
 
-path = '/Users/deeshantkotnala/Desktop/data/cats/cat2.jpg'
+path = 'path of data to be predicted'
 
 categories = ['Dog','Cat']
 
